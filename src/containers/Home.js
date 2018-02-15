@@ -1,10 +1,10 @@
 import React, {Component, PropTypes} from 'react'
-// import styled from 'styled-components'
-// import Container from '../theme/grid/Container'
+import styled from 'styled-components'
+import Container from '../theme/grid/Container'
 
-// const Image = styled.img`
-// 	width: 100%;
-// `;
+const Image = styled.img`
+	width: 100%;
+`;
 
 export default class Home extends Component {
 
@@ -12,8 +12,8 @@ export default class Home extends Component {
 
 	render() {
 		return (
-			<div>
-				<img src={require ('../assets/Nitesh-NJ.jpg')} alt="Nitesh-Pic" />
+			<Container>
+				<Image src={require ('../assets/Nitesh-NJ.jpg')} alt="Nitesh-Pic" />
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -24,7 +24,7 @@ export default class Home extends Component {
 					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
-			</div>
+			</Container>
 		)
 	}
 }
