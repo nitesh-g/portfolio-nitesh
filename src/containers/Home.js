@@ -13,7 +13,6 @@ export default class Home extends Component {
 	render() {
 		return (
 			<Container>
-			<h1> Hello ? </h1>
 				<Image src={require ('../assets/Nitesh-NJ.jpg')} alt="Nitesh-Pic" />
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
