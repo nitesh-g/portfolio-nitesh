@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'; // ES6
 import styled from 'styled-components'
-import Container from '../theme/grid/Container'
 import './container.css'
 
 const Image = styled.img`
