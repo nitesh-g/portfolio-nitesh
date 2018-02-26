@@ -22,9 +22,9 @@ export default class Home extends Component {
 
 	render() {
 		return (
-			<Container>
+			<div className="container">
 				<h3 className="name-portfolio">Nitesh Gupta</h3>
-				<Image src={require ('../assets/Nitesh-NJ.jpg')} alt="Nitesh-Pic" />
+				<Image className="nitesh-img" src={require ('../assets/Nitesh-NJ.jpg')} alt="Nitesh-Pic" />
 				<p>
 					Nitesh ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -36,7 +36,7 @@ export default class Home extends Component {
 					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					
 				</p>
-			</Container>
+			</div>
 		)
 	}
 }

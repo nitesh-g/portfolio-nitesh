@@ -5,10 +5,12 @@ import MySkills from '../components/SkillsComponent/MySkills'
 export default class Projects extends Component {
 	render(){
 		return(
-			<Container>
+			<div>
 				<h1 className="project-title-wrapper" > Nitesh Projects</h1>
-				<MySkills />
-			</Container>
+				<MySkills
+				title="Skills"
+				 />
+			</div>
 			);
 }	
 }

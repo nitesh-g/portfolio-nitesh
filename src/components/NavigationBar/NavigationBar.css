@@ -1,7 +1,9 @@
 .nav-bar-wrapper {
     display: flex;
-    position: fixed;
-    right: 119px;
+    padding: 0px !important;
+    /* position: fixed; */
+    /* right: 119px; */
+    justify-content: flex-end;
 }
 
 .nav-bar-wrapper .nav-bar {
