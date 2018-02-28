@@ -24,7 +24,7 @@ export default class Home extends Component {
 			<div className="container">
 				<h3 className="name-portfolio">Nitesh Gupta</h3>
 				<Image className="nitesh-img" src={require ('../assets/Nitesh-NJ.jpg')} alt="Nitesh-Pic" />
-				<p>
+				<p className="home-intro">
 					Nitesh ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 

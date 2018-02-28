@@ -7,7 +7,7 @@ import './MySkills.css'
 export default class MySkills extends Component {
     render() {
         return(
-        <div className="container">
+        <div className="container skill-wrapper">
             <h1 className="skill-title">My {this.props.title}</h1>
             <div className="row">
                 <div className="col-xs-12 col-md-6 idea-tab">
