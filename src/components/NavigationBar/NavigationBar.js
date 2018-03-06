@@ -8,7 +8,8 @@ export default class NavigationBar extends Component {
            <div className="nav-bar-wrapper container">
                <Link className="nav-bar" to="/" >Home</Link>
                <Link className="nav-bar" to="/projects" >Projects</Link>
-               <Link className="nav-bar" to="/aboutMe">About Me</Link>               
+               <Link className="nav-bar" to="/aboutMe">About Me</Link>
+               <Link className="nav-bar" to="/contactMe">Contact</Link>                                             
            </div> 
         );
     }

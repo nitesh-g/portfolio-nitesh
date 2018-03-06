@@ -1,12 +1,17 @@
 import React, { Component }  from 'react'
-import Container from '../theme/grid/Container'
+import AboutBody from '../components/AboutBody/AboutBody'
+
 
 export default class AboutMe extends Component {
 	render(){
 		return(
-			<Container>
-				<h1>About Me </h1>
-			</Container>
+			<div className="container">
+				<AboutBody 
+				name="Nitesh" 
+				country="India"
+				university="Southern New Hampshire University"
+				/>
+			</div>
 			)
 }	
 }
