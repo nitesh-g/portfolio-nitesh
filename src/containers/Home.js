@@ -8,17 +8,7 @@ const Image = styled.img`
 `;
 
 export default class Home extends Component {
-
-	constructor(props){
-		super(props);
-		this.state = { 
-			activeTab: 'home'
-		}
-	}
-	static propTypes = {};
-
-
-
+	
 	render() {
 		return (
 			<div className="container">

@@ -25,3 +25,7 @@
     background-color: lightgray;
     color: blue;
 }
+
+.active{
+    color:blue !important;
+}

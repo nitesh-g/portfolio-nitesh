@@ -1,7 +1,12 @@
 import React, {Component} from 'react'
 import Typist from 'react-typist'
+import { Link } from 'react-router'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faChevronRight } from '@fortawesome/fontawesome-free-solid'
 import '../../../node_modules/react-typist/dist/Typist.css'
 import './AboutBody.css'
+
+
 
 export default class AboutBody extends Component {
     render() {
@@ -29,6 +34,13 @@ I possess a tech degree in Information Technology from Southern New Hampshire Un
                         I am looking to join a stable company in a position that offers a positive atmosphere to learn and expand my knowledge, enhance my skills to implement new technologies for the betterment of the organization.
                      </p>
                  </div>
+                 <div className="contact-button-wrapper">
+                    <h2>Get in touch!</h2>
+                    <Link className="button-large" to="/contactMe">
+                    Contact Me &nbsp;
+                    <FontAwesomeIcon icon={faChevronRight}></FontAwesomeIcon>
+                    </Link> 
+                </div>
              </div>
             </div>
         )
