@@ -31,8 +31,11 @@ export default class ContactBody extends Component {
 
     render() {
         return(
-            <div>
-                <form action="">
+            <div className="form-wrapper">
+                <form className="form-style" 
+                action="https://script.google.com/macros/s/AKfycbyXIhqCFJ69RS5juKA87p2YxIwTwejBSsUvuvsYAn_iDDSNDlE/exec"
+                method="POST"
+                >
                     <label className="heading-label" htmlFor="namedInput">
                         Your name...
                     </label>
@@ -89,7 +92,6 @@ export default class ContactBody extends Component {
                     rows="5"
                     cols="50"
                     />
-                    
                     <br/>
                     <input className="contact-submit-button" type="submit" value="Submit" />
                 </form>
