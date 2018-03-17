@@ -16,7 +16,7 @@ export default class ContactBody extends Component {
     }
 
     handleChange(event) {  
-        const name = event.target.name;     
+        const name = event.target.name;
         this.setState({
             [name]: event.target.value
         })
@@ -33,7 +33,7 @@ export default class ContactBody extends Component {
         return(
             <div className="form-wrapper">
                 <form className="form-style" 
-                action="https://script.google.com/macros/s/AKfycbyXIhqCFJ69RS5juKA87p2YxIwTwejBSsUvuvsYAn_iDDSNDlE/exec"
+                action="https://formspree.io/niteshgupta.advt@gmail.com"
                 method="POST"
                 >
                     <label className="heading-label" htmlFor="namedInput">
