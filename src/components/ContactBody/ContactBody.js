@@ -20,12 +20,11 @@ export default class ContactBody extends Component {
         this.setState({
             [name]: event.target.value
         })
-        console.log(this.state)
     }
 
     handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value);
-        event.preventDefault();
+        alert('A name was submitted: ' + this.state.value)
+        event.preventDefault()
       }
     
 
@@ -33,7 +32,7 @@ export default class ContactBody extends Component {
         return(
             <div className="form-wrapper">
                 <form className="form-style" 
-                action="https://formspree.io/niteshgupta.advt@gmail.com"
+                action="https://formspree.io/contact.niteshgupta@gmail.com"
                 method="POST"
                 >
                     <label className="heading-label" htmlFor="namedInput">
